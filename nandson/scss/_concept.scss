@@ -1,0 +1,36 @@
+#concept {
+    height: 967px;
+    position: relative;
+    .c-wrap1 {
+        height: 407px;
+        background-color: #A193861F;
+        .c-box1 {
+            width: 62%;
+            background-image: url(../img/img2.png);
+            background-size: cover;
+            .c-img1 {
+
+            }
+        }
+        .c-box1,.c-box2 {
+            height: 413px;
+        }
+        .c-box2 {
+            width: 36%;
+            background-image: url(../img/img6.png);
+            background-size: cover;
+            margin-left: 11px;
+            .c-img2 {
+                
+            }
+        }
+    }
+    .c-wrap2 {
+        height: 560px;
+        background-color: #A1938689;
+    }
+}
+
+.c-inner {
+    display: flex;
+}

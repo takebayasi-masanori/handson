@@ -1,0 +1,140 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+*, *:after, *, *:before {
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: inherit; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 12px;
+  line-height: 1.67; }
+
+.inner {
+  width: 84%;
+  margin: 0 auto; }
+
+.title {
+  font-size: 1.8rem;
+  color: #707070; }
+
+header {
+  display: flex;
+  align-items: center; }
+  header .hd-logo {
+    font-size: 3.8rem;
+    width: 24%;
+    padding: 68px 0 0 77px; }
+  header .nav-menu {
+    width: 30%;
+    font-size: 1.8rem;
+    padding-top: 77px;
+    z-index: 10; }
+    header .nav-menu ul {
+      display: flex; }
+      header .nav-menu ul li {
+        color: #707070; }
+        header .nav-menu ul li:nth-child(1) {
+          margin-left: 20px;
+          color: black; }
+        header .nav-menu ul li:nth-child(2) {
+          padding-left: 21px; }
+        header .nav-menu ul li:nth-child(3) {
+          padding-left: 15px; }
+        header .nav-menu ul li:nth-child(4) {
+          padding-left: 19px; }
+
+#f-view {
+  display: flex;
+  height: 605px; }
+  #f-view .f-view-wrap1 {
+    width: 46%;
+    font-size: 3.8rem; }
+    #f-view .f-view-wrap1 .comment1 {
+      padding: 190px 0 0 163px; }
+    #f-view .f-view-wrap1 .comment2 {
+      padding: 48px 0 0 107px; }
+  #f-view .f-view-wrap2 {
+    position: absolute;
+    top: 0;
+    left: 46%;
+    width: 54%;
+    z-index: 3; }
+    #f-view .f-view-wrap2 .img {
+      height: 800px;
+      background-image: url(../img/img3.png);
+      background-size: cover;
+      background-position: 50% 50%; }
+
+#concept {
+  height: 967px;
+  position: relative; }
+  #concept .c-wrap1 {
+    height: 407px;
+    background-color: #A193861F; }
+    #concept .c-wrap1 .c-box1 {
+      width: 62%;
+      background-image: url(../img/img2.png);
+      background-size: cover; }
+    #concept .c-wrap1 .c-box1, #concept .c-wrap1 .c-box2 {
+      height: 413px; }
+    #concept .c-wrap1 .c-box2 {
+      width: 36%;
+      background-image: url(../img/img6.png);
+      background-size: cover;
+      margin-left: 11px; }
+  #concept .c-wrap2 {
+    height: 560px;
+    background-color: #A1938689; }
+
+.c-inner {
+  display: flex; }
+
+/*# sourceMappingURL=main.css.map */
